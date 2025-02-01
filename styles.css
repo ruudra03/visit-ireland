@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Roboto, sans-serif;
+}
+
+.dark-bg {
+  color: #e5e7eb;
+  background-color: #1f2932;
+}
+
+.light-bg {
+  background-color: #e5e7eb;
+}
+
+/* Header Section */
+.header-container {
+  display: flex;
+}
+
+.header-item.logo {
+  height: 100px;
+  width: 120px;
+}
+
+.header-item.nav .nav-list {
+  list-style: none;
+
+  display: flex;
+}
+
+/* Hero Section */
+.hero-container {
+  display: flex;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-container .hero-img {
+  height: 256px;
+  width: 484px;
+}
+
+/* Information Section */
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-content {
+  display: flex;
+}
+
+.info-content .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-content .info-img {
+  height: 150px;
+  width: 150px;
+}
+
+/* User Comment Section */
+.user-comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contact Seciton */
+.contact-container {
+  background-color: #3882f6;
+
+  display: flex;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+}
