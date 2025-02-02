@@ -7,7 +7,7 @@
 }
 
 .dark-bg {
-  background-color: #1f2932;
+  background-color: #1f2937;
 }
 
 .light-bg {
@@ -27,7 +27,7 @@ header.container {
 }
 
 .container .logo {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 150px;
   height: 100px;
   width: 120px;
@@ -67,7 +67,7 @@ header.container {
 }
 
 .hero-item.content .btn {
-  color: white;
+  color: #f9faf8;
   background-color: #3882f6;
   padding: 6px 18px;
   width: max-content;
@@ -82,39 +82,105 @@ header.container {
 }
 
 /* Information Section */
-.info-container {
+.info {
+  margin: 50px 0;
+
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
-.info-content {
+.info .title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info .content {
   display: flex;
+  gap: 20px;
 }
 
-.info-content .info {
+.info-item {
+  flex: 1;
+
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.info-content .info-img {
-  height: 150px;
-  width: 150px;
+.info-item .img {
+  border-radius: 15px;
+
+  height: 200px;
+  width: 200px;
+}
+
+.info-item .detail {
+  font-size: larger;
+  text-align: center;
 }
 
 /* User Comment Section */
-.user-comment-container {
+.user-comment {
+  color: #1f2937;
+  padding: 80px 240px;
+
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.user-comment .comment {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.user-comment .user {
+  font-size: larger;
+  font-weight: bolder;
+  align-self: flex-end;
 }
 
 /* Contact Seciton */
-.contact-container {
+.contact {
+  color: #f9faf8;
   background-color: #3882f6;
+  margin: 80px 160px;
+  padding: 40px 0;
+  border-radius: 15px;
 
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.contact-content {
+.contact .main {
+  font-size: larger;
+  font-weight: bolder;
+
   display: flex;
   flex-direction: column;
+}
+
+.contact .description {
+  font-size: 16px;
+}
+
+.contact .btn {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 6px 18px;
+  width: max-content;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+}
+
+.footer {
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px 0;
 }
