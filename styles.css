@@ -7,7 +7,6 @@
 }
 
 .dark-bg {
-  color: #e5e7eb;
   background-color: #1f2932;
 }
 
@@ -15,35 +14,71 @@
   background-color: #e5e7eb;
 }
 
-/* Header Section */
-.header-container {
-  display: flex;
+.light-txt {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
-.header-item.logo {
+/* Header Section */
+header.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .logo {
+  margin-top: 5px;
+  margin-left: 150px;
   height: 100px;
   width: 120px;
 }
 
-.header-item.nav .nav-list {
+.container .nav-list {
+  margin-right: 150px;
   list-style: none;
 
   display: flex;
+  gap: 40px;
 }
 
 /* Hero Section */
-.hero-container {
+.hero {
   display: flex;
+  gap: 40px;
 }
 
-.hero-content {
+.hero-item {
+  margin: 50px 0;
+  flex: 1;
+}
+
+.hero-item.content {
+  margin-left: 150px;
+
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.hero-container .hero-img {
-  height: 256px;
-  width: 484px;
+.hero-item.content .main {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-item.content .btn {
+  color: white;
+  background-color: #3882f6;
+  padding: 6px 18px;
+  width: max-content;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero-item.img {
+  margin-right: 150px;
+  height: 300px;
+  width: auto;
 }
 
 /* Information Section */
